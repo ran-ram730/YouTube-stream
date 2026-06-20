@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YouTube Multi-Stream Player | Ek sath multiple videos play karein</title>
+    <title>YouTube-stream</title>
     <!-- Tailwind CSS for UI styling -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- FontAwesome for icons -->
@@ -109,12 +109,12 @@
 
             <!-- Action Buttons -->
             <div class="mt-6 flex flex-wrap gap-3 items-center justify-between border-t border-gray-700 pt-5">
-                <div class="flex flex-wrap gap-2">
+                <div class="flex fleix-wrap gap-2">
                     <button id="btnGenerate" onclick="generateStreams()" class="bg-red-600 hover:bg-red-700 text-white font-bold px-6 py-3 rounded-lg flex items-center gap-2 transition duration-200 transform active:scale-95 shadow-md">
-                        <i class="fa-solid fa-play"></i> Play Streams Start Karein
+                        <i class="fa-solid fa-play"></i> Play Streams Start
                     </button>
                     <button id="btnClear" onclick="clearStreams()" class="bg-gray-700 hover:bg-gray-600 text-gray-200 font-medium px-4 py-3 rounded-lg flex items-center gap-2 transition duration-200 active:scale-95">
-                        <i class="fa-solid fa-trash-can"></i> Sabhi Clear Karein
+                        <i class="fa-solid fa-trash-can"></i> Clear now
                     </button>
                 </div>
                 
@@ -130,7 +130,7 @@
         <section id="statsPanel" class="hidden bg-gray-800 border border-gray-700 rounded-xl p-4 shadow-md flex-wrap items-center justify-between gap-4">
             <div class="flex items-center gap-4">
                 <div class="text-sm">
-                    <span class="text-gray-400">Chalu Streams:</span>
+                    <span class="text-gray-400">play Streams:</span>
                     <span id="activeCountBadge" class="ml-1 text-lg font-bold text-red-500">0</span>
                 </div>
                 <div class="h-6 w-px bg-gray-700"></div>
